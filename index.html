@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Kalkulator BMI</title>
+    <link rel="icon" type="image/png" href="icon1.png">
+    
+</head>
+<body>
+    <div class="bmi">
+        <h1>Kalkulator BMI</h1>
+        <p id="guide">Silakan masukkan Berat(kg) dan Tinggi(cm) Badan Anda</p>
+        <p class="text">Berat (kg)</p>
+        <input type="number" id="berat">
+
+        <p class="text">Tinggi (cm)</p>
+        <input type="number" id="tinggi">
+        <p id="result"></p>
+        <p id="status"></p>
+
+        <button id="button" onclick="hitung()">Hitung</button>
+        <button id="reset" onclick="reset()">Reset</button>
+    </div>
+</body>
+</html>
